@@ -20,6 +20,8 @@
             <link rel="shortcut icon" href="favicon.ico">
             <!-- ++ CSS ++ -->
             <link href="css/style.css" rel="stylesheet" type="text/css">
+            <!-- Slick -->
+            <link href="slick/slick.css" rel="stylesheet" type="text/css">
     
          	<!-- ////////////////////////// BEGIN MEDIA QUIERIES ///////////////////////////// -->
                 <link rel="stylesheet" type="text/css" media="all and (max-width: 320px)" href="css/1_portrait.css" />
@@ -53,6 +55,8 @@
                 <script type="text/javascript" src="js/page-code.js"></script>
                 <!-- MediaQuerie -->
                 <script type="text/javascript" src="js/media-querie.js"></script>
+                <!-- Slick -->
+                <script type="text/javascript" src="slick/slick.js"></script>
                
                 
 </head>
@@ -87,7 +91,65 @@
             </header><!-- end header -->
             <!-- Content -->
             <section id="content">
-              
+                <section class="slider"><!-- Slider -->
+                    <div class="back-module"><!-- element -->
+                        <div class="inner-block">
+                            <article>
+                                <h1>Soluciones<span>a tu medida <br>y presupuesto</span></h1>
+                                <div class="line color1"></div>
+                                <p>Pellentesque pellentesque condimentum magna, vitae scelerisque felis porta id. Integer a lectus leo. Donec ipsum odio, porttitor et condimentum et, congue non risus. Proin tempor tortor ac egestas tempus.</p>
+                                <div class="btn-zone clear">
+                                    <a href="#" class="btn type1">Contactar</a>
+                                    <a href="#" class="btn type2">Ver más</a>
+                                </div>
+                            </article>
+                        </div>
+                        <img src="image/slider/slide1.jpg" alt="Image" class="image">
+                    </div>
+                    <div class="back-module"><!-- element -->
+                        <div class="inner-block">
+                            <article>
+                                <h1>Soluciones<span>a tu medida <br>y presupuesto</span></h1>
+                                <div class="line color1"></div>
+                                <p>Pellentesque pellentesque condimentum magna, vitae scelerisque felis porta id. Integer a lectus leo. Donec ipsum odio, porttitor et condimentum et, congue non risus. Proin tempor tortor ac egestas tempus.</p>
+                                <div class="btn-zone clear">
+                                    <a href="#" class="btn type1">Contactar</a>
+                                    <a href="#" class="btn type2">Ver más</a>
+                                </div>
+                            </article>
+                        </div>
+                        <img src="image/slider/slide1.jpg" alt="Image" class="image">
+                    </div>
+                    <div class="back-module"><!-- element -->
+                        <div class="inner-block">
+                            <article>
+                                <h1>Soluciones<span>a tu medida <br>y presupuesto</span></h1>
+                                <div class="line color1"></div>
+                                <p>Pellentesque pellentesque condimentum magna, vitae scelerisque felis porta id. Integer a lectus leo. Donec ipsum odio, porttitor et condimentum et, congue non risus. Proin tempor tortor ac egestas tempus.</p>
+                                <div class="btn-zone clear">
+                                    <a href="#" class="btn type1">Contactar</a>
+                                    <a href="#" class="btn type2">Ver más</a>
+                                </div>
+                            </article>
+                        </div>
+                        <img src="image/slider/slide1.jpg" alt="Image" class="image">
+                    </div>
+                    <div class="back-module"><!-- element -->
+                        <div class="inner-block">
+                            <article>
+                                <h1>Soluciones<span>a tu medida <br>y presupuesto</span></h1>
+                                <div class="line color1"></div>
+                                <p>Pellentesque pellentesque condimentum magna, vitae scelerisque felis porta id. Integer a lectus leo. Donec ipsum odio, porttitor et condimentum et, congue non risus. Proin tempor tortor ac egestas tempus.</p>
+                                <div class="btn-zone clear">
+                                    <a href="#" class="btn type1">Contactar</a>
+                                    <a href="#" class="btn type2">Ver más</a>
+                                </div>
+                            </article>
+                        </div>
+                        <img src="image/slider/slide1.jpg" alt="Image" class="image">
+                    </div>
+                   
+                </section><!-- end slider -->
             </section><!-- end content -->
             <!-- fix -->
             <div class="fix"></div>
@@ -97,7 +159,22 @@
             </footer><!-- end footer -->
                 
         </div><!-- end wrapper -->
+        
     
+        <!-- Functions -->
+        <script type="text/javascript">
+            $(document).ready(function(){
+              $('.slider').slick({
+                dots: true,
+                arrows: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                touchMove: true,
+                draggable: false,
+              });
+            });
+        </script>
        
 </body>
 </html>

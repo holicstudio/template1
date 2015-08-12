@@ -19,28 +19,57 @@ body {
   padding: 0;
   height: 100%;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 18px;
   color: #383838;
+  font-family: "Regular";
 }
 /*---- Other ----*/
 h1,
-h2 {
-  margin-bottom: 20px;
-}
+h2,
 h3,
-h4 {
-  margin-bottom: 20px;
-}
+h4,
 h5,
 h6 {
-  margin-bottom: 20px;
+  font-family: "Bold";
+  margin-bottom: 10px;
+}
+h1,
+h2 {
+  letter-spacing: -2px;
 }
 p {
+  margin: 0;
   margin-bottom: 10px;
 }
 a {
   color: #12bbc4;
   text-decoration: underline;
+}
+/*---- line ----*/
+.line {
+  width: 40px;
+  height: 3px;
+  background: #383838;
+}
+.line.color1 {
+  background: #12bbc4;
+}
+/*---- btn ----*/
+.btn {
+  padding: 10px 40px 6px 40px;
+  font-family: "Bold";
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 14px;
+}
+.btn.type1 {
+  outline: 3px solid #12bbc4;
+  background: #12bbc4;
+}
+.btn.type2 {
+  outline: 3px solid #fff;
+  background: transparent;
 }
 /*---- Transition ----*/
 a,
@@ -95,7 +124,7 @@ header {
 #menu ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "bold";
+  font-family: "Bold";
   display: block;
   float: left;
 }
@@ -110,6 +139,80 @@ header {
   height: auto;
   position: relative;
   width: 100%;
+}
+/*----- backmodule ------*/
+.back-module figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-size: cover;
+}
+/*----- Slider -------*/
+/*-- arrow --*/
+.slider .slick-arrow {
+  position: absolute;
+  z-index: 1;
+  color: #9a9a9a;
+  cursor: pointer;
+}
+.slider .slick-dots {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+}
+.slider .slick-dots i {
+  font-size: 10px;
+}
+.slider .slick-dots li {
+  width: 100%;
+}
+.slider .slick-dots li button {
+  width: 100%;
+  cursor: pointer;
+}
+.slider .slick-dots li i {
+  color: #9a9a9a;
+}
+.slider .slick-dots li.slick-active i {
+  color: #fff;
+}
+/*-- slick slide --*/
+.slider .slick-slide {
+  position: relative;
+}
+.slider .slick-slide img.image {
+  width: 100%;
+  height: auto;
+}
+.slider .slick-slide article {
+  position: relative;
+  z-index: 1;
+}
+.slider .slick-slide article h1,
+.slider .slick-slide article h2 {
+  text-transform: uppercase;
+  color: #9a9a9a;
+}
+.slider .slick-slide article h1 span,
+.slider .slick-slide article h2 span {
+  color: #383838;
+  display: block;
+  clear: both;
+}
+.slider .slick-slide article .line {
+  margin-bottom: 20px;
+}
+/*---- btn zone ----*/
+.btn-zone {
+  width: 100%;
+}
+.btn-zone a {
+  float: left;
 }
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {

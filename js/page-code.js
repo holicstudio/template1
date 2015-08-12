@@ -13,7 +13,6 @@ $(document).ready(function(){
             style: 'background-image: url('+this.src+')',
         }) 
     });
-    
     //--- fix placeholder
 			$(function() {
 				var input = document.createElement("input");

@@ -18,6 +18,19 @@ h6 {
 a:hover {
   text-decoration: none;
 }
+/*---- btn ----*/
+.btn {
+  padding: 10px 40px 6px 40px;
+  line-height: 14px;
+}
+.btn.type1:hover {
+  background: #109aa1;
+  outline-color: #109aa1;
+}
+.btn.type2:hover {
+  background: #fff;
+  color: #12bbc4;
+}
 /*---- innerblock -----*/
 .inner-block {
   width: 900px;
@@ -61,4 +74,50 @@ header {
 /*--- Open ----*/
 #open {
   display: none;
+}
+/*:::::::::::: Content ::::::::::::::*/
+/*----- Slider -------*/
+.slider,
+.slider .slick-slide {
+  width: 100%;
+  height: 420px;
+}
+/*-- arrow --*/
+.slider .slick-arrow {
+  right: 5%;
+  font-size: 30px;
+  width: 30px;
+}
+.slider .slick-arrow:hover i {
+  color: #12bbc4;
+}
+.slider .slick-prev {
+  top: 140px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+.slider .slick-next {
+  top: 110px;
+}
+.slider .slick-dots {
+  width: 30px;
+  right: 5%;
+  top: 200px;
+}
+.slider .slick-dots li button:hover i {
+  color: #12bbc4;
+}
+/*-- slick slide --*/
+.slider .slick-slide article {
+  width: 50%;
+  padding-top: 120px;
+}
+.slider .slick-slide article h1 span,
+.slider .slick-slide article h2 span {
+  font-size: 50px;
+  line-height: 45px;
+}
+/*---- btn zone ----*/
+.btn-zone a {
+  margin-right: 20px;
 }

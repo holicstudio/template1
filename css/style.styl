@@ -25,19 +25,43 @@ body
     font-size size-normal
     line-height line-normal
     color txt
+    font-family fregular
 
 /*---- Other ----*/
+{all-title}
+    font-family fbold
+    margin-bottom 10px    
 {principal-title}
-    margin-bottom 20px
-{second-title}
-    margin-bottom 20px    
-{third-title}
-    margin-bottom 20px
+    letter-spacing -2px
 p
+    margin 0
     margin-bottom 10px
 a
     color principal
     text-decoration underline
+    
+/*---- line ----*/
+.line
+    width 40px
+    height 3px
+    background txt
+.line.color1
+    background principal  
+    
+/*---- btn ----*/
+.btn
+    padding 10px 40px 6px 40px
+    font-family fbold
+    color #fff
+    text-decoration none
+    font-size size-medium
+    line-height 14px
+.btn.type1
+    outline 3px solid principal
+    background principal
+.btn.type2
+    outline 3px solid neutral
+    background transparent
 
     
 /*---- Transition ----*/
@@ -101,6 +125,74 @@ header
     position relative
     width 100%
 
+/*----- backmodule ------*/
+.back-module
+    figure
+        width 100%
+        height 100%
+        position absolute
+        top 0
+        left 0
+        background-position center center
+        background-size cover
+        
+        
+/*----- Slider -------*/
+/*-- arrow --*/    
+.slider
+    .slick-arrow
+        position absolute
+        z-index 1
+        color gray1
+        cursor pointer
+    /*-- dots --*/    
+    .slick-dots
+        list-style none
+        padding 0
+        margin 0
+        position absolute
+        text-align center
+        i
+            font-size 10px
+        li
+            width 100%
+            button
+                width 100%
+                cursor pointer
+            i
+                color gray1
+        li.slick-active
+            i
+                color neutral
+            
+/*-- slick slide --*/
+.slider .slick-slide
+    position relative
+    img.image
+        width 100%
+        height auto
+    article
+        position relative
+        z-index 1
+        h1,
+        h2
+            text-transform uppercase
+            color gray1
+            span
+                color txt
+                display block
+                clear both
+        .line
+            margin-bottom 20px
+    
+
+    
+/*---- btn zone ----*/    
+.btn-zone
+    width 100%
+    a
+        float left
+    
     
 /*:::::::::::: Fix ::::::::::::::*/
 .fix

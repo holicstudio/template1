@@ -12,6 +12,11 @@
 {third-title}
     font-size size-medium
     line-height line-medium
+/*---- btn ----*/
+.btn
+    padding 10px 30px 6px 30px
+    line-height 14px     
+    
 
 /*---- innerblock -----*/
 .inner-block
@@ -82,4 +87,53 @@ header
         transform rotate(-45deg)
         transform-origin 17px 3px
     small:last-child
-        opacity 0                
+        opacity 0 
+        
+        
+/*:::::::::::: Content ::::::::::::::*/
+        
+        
+/*----- Slider -------*/
+.slider,
+.slider .slick-slide
+    width 100%
+    height 350px
+/*-- arrow --*/    
+.slider
+    .slick-arrow
+        right 5%
+        font-size 30px
+        width 30px
+    .slick-prev
+        top 200px
+        border-bottom 2px solid neutral
+        padding-bottom 10px
+    .slick-next
+        top 170px
+    /*-- dots --*/    
+    .slick-dots
+        width 30px
+        right 5%
+        bottom 20px
+            
+/*-- slick slide --*/
+.slider .slick-slide
+    article
+        width 70%
+        position absolute
+        bottom 20px
+        left 5%
+        p
+            display none
+        h1,
+        h2
+            span
+                font-size size-xlarge
+                line-height line-xlarge
+    
+
+    
+/*---- btn zone ----*/    
+.btn-zone
+    a
+        margin-right 20px   
