@@ -20,6 +20,11 @@ h6 {
   padding: 10px 20px 6px 20px;
   line-height: 14px;
 }
+/*---- module ----*/
+.module {
+  width: 90%;
+  padding: 20px 5%;
+}
 /*---- innerblock -----*/
 .inner-block {
   width: 100%;
@@ -130,7 +135,7 @@ header {
   top: 40px;
 }
 .slider .slick-dots {
-  display: none;
+  display: none !important;
 }
 /*-- slick slide --*/
 .slider .slick-slide article {

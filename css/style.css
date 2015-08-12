@@ -35,7 +35,7 @@ h6 {
 }
 h1,
 h2 {
-  letter-spacing: -2px;
+  letter-spacing: -1.5px;
 }
 p {
   margin: 0;
@@ -213,6 +213,23 @@ header {
 }
 .btn-zone a {
   float: left;
+}
+/*------ Middle block ------*/
+.middle-block {
+  text-align: center;
+}
+.middle-block h2 {
+  text-transform: uppercase;
+}
+.middle-block .line {
+  left: 50%;
+  margin-left: -20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.middle-block img {
+  width: 100%;
+  height: auto;
 }
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {

@@ -20,6 +20,11 @@ h6 {
   padding: 10px 40px 6px 40px;
   line-height: 14px;
 }
+/*---- module ----*/
+.module {
+  width: 100%;
+  padding: 40px 0;
+}
 /*---- innerblock -----*/
 .inner-block {
   width: 700px;
@@ -85,7 +90,7 @@ header {
 }
 /*-- slick slide --*/
 .slider .slick-slide article {
-  width: 50%;
+  width: 60%;
   padding-top: 120px;
 }
 .slider .slick-slide article h1 span,
@@ -96,4 +101,11 @@ header {
 /*---- btn zone ----*/
 .btn-zone a {
   margin-right: 20px;
+}
+/*------ Middle block ------*/
+.middle-block p {
+  width: 70%;
+  margin: 0 auto 30px auto;
+  font-size: 17px;
+  line-height: 19px;
 }

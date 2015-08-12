@@ -31,6 +31,11 @@ a:hover {
   background: #fff;
   color: #12bbc4;
 }
+/*---- module ----*/
+.module {
+  width: 100%;
+  padding: 40px 0;
+}
 /*---- innerblock -----*/
 .inner-block {
   width: 900px;
@@ -120,4 +125,11 @@ header {
 /*---- btn zone ----*/
 .btn-zone a {
   margin-right: 20px;
+}
+/*------ Middle block ------*/
+.middle-block p {
+  width: 70%;
+  margin: 0 auto 30px auto;
+  font-size: 17px;
+  line-height: 19px;
 }
