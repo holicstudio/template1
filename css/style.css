@@ -1,0 +1,59 @@
+/*----- Basic installation -----*/
+@import "normalize.css";
+@import "font-face.css";
+@import "animate.css";
+/*:::::::::::: Body ::::::::::::::*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/*---- Transition ----*/
+a,
+input,
+textarea,
+button,
+i {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -ms-transition: 0.4s;
+}
+/*---- innerblock -----*/
+.inner-block {
+  height: auto;
+  margin: 0 auto;
+  width: 900px;
+}
+/*:::::::::::: Wrapper ::::::::::::::*/
+#wrapper {
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+  background: neutral;
+  z-index: 1;
+}
+/*:::::::::::: Header ::::::::::::::*/
+header {
+  position: relative;
+  width: 100%;
+}
+/*:::::::::::: Content ::::::::::::::*/
+#content {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+/*:::::::::::: Fix ::::::::::::::*/
+.fix {
+  width: 100%;
+}
+/*:::::::::::: Footer ::::::::::::::*/
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
