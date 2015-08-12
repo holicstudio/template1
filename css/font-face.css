@@ -1,9 +1,18 @@
 /*:::::: Fonts ::::::::*/
-@font-face {font-family:"#";/*----------->  Black*/
-			src:url('../fonts/#.eot');
-    		src: local('☺'), url('../fonts/#.woff') format('woff'), 
-                        url('../fonts/#.ttf') format('truetype'),
-                        url('../fonts/#.svg#webfont') format('svg');
+@font-face {font-family:"Bold";/*----------->  Bold*/
+			src:url('../fonts/foundersgrotesk-semibold.eot');
+    		src: local('☺'), url('../fonts/foundersgrotesk-semibold.woff') format('woff'), 
+                        url('../fonts/foundersgrotesk-semibold.ttf') format('truetype'),
+                        url('../fonts/foundersgrotesk-semibold.svg#webfont') format('svg');
+            font-weight: bold;
+            font-style: normal;
+            font-variant: normal;
+}
+@font-face {font-family:"Regular";/*----------->  Regular*/
+			src:url('../fonts/foundersgrotesk-regular.eot');
+    		src: local('☺'), url('../fonts/foundersgrotesk-regular.woff') format('woff'), 
+                        url('../fonts/foundersgrotesk-regular.ttf') format('truetype'),
+                        url('../fonts/foundersgrotesk-regular.svg#webfont') format('svg');
             font-weight: bold;
             font-style: normal;
             font-variant: normal;

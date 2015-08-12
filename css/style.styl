@@ -22,8 +22,24 @@ body
     margin 0
     padding 0
     height 100%
+    font-size size-normal
+    line-height line-normal
+    color txt
 
+/*---- Other ----*/
+{principal-title}
+    margin-bottom 20px
+{second-title}
+    margin-bottom 20px    
+{third-title}
+    margin-bottom 20px
+p
+    margin-bottom 10px
+a
+    color principal
+    text-decoration underline
 
+    
 /*---- Transition ----*/
 {effect}
     transition .4s
@@ -32,7 +48,6 @@ body
 .inner-block
     height auto
     margin 0 auto
-    width 900px
 
 /*:::::::::::: Wrapper ::::::::::::::*/
 #wrapper
@@ -40,13 +55,43 @@ body
     position relative
     width 100%
     background neutral
-    z-index 1
     
 
 /*:::::::::::: Header ::::::::::::::*/
 header
     position relative
-    width 100%
+    background neutral
+    border-bottom 1px solid gray2
+     
+/*--- logo ---*/
+.logo
+    float left
+    img
+        width 100%
+        height auto
+
+/*---- menu ----*/
+#menu
+    ul
+        width 100%
+        height auto
+        padding 0
+        margin 0
+        list-style none
+        li
+            float left
+            a
+                text-decoration none
+                text-transform uppercase
+                font-family fbold
+                display block
+                float left
+        li.social
+            a
+                margin-right 10px
+            a+a
+                margin-right 0
+    
 
 
 

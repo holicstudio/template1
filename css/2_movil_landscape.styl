@@ -1,2 +1,85 @@
 /*----- Basic installation -----*/
 @import "variables"
+
+
+/*---- Other ----*/
+{principal-title}
+    font-size size-xmedium
+    line-height line-xmedium
+{second-title}
+    font-size size-medium
+    line-height line-medium
+{third-title}
+    font-size size-normal
+    line-height line-normal
+
+/*---- innerblock -----*/
+.inner-block
+    width 100%
+    
+/*:::::::::::: Wrapper ::::::::::::::*/
+#wrapper.active
+    margin-left -70%
+    box-shadow 0 5px 40px rgba(0,0,0,.5)
+
+/*:::::::::::: Header ::::::::::::::*/
+header
+    width 90%
+    padding 10px 5%
+    
+/*--- logo ---*/
+.logo
+    width 140px
+
+/*---- menu ----*/
+#menu
+    position fixed
+    top 0
+    right 0
+    width 70%
+    background gray5
+    padding-top 14px
+    height 100%
+    ul
+        li
+            margin-right 10px
+            width 90%
+            padding 10px 5%
+            border-bottom 1px solid gray1
+            a
+                color neutral
+                i
+                    color neutral
+            a.active
+                color principal
+                
+/*---- open -----*/
+#open
+    width 30px
+    height 30px
+    float right
+    display block
+    z-index 10
+    top 20px
+    small
+        width 100%
+        background txt
+        height 3px
+        margin-bottom 7px
+        display block
+        background txt1
+#open small:last-child
+    margin-bottom 0
+    opacity 1
+#open.active
+    small
+        background principal !important
+        margin-top 1px
+    small:nth-child(1)
+        transform rotate(45deg)
+        transform-origin 0px 7px
+    small:nth-child(2)
+        transform rotate(-45deg)
+        transform-origin 17px 3px
+    small:last-child
+        opacity 0                

@@ -33,18 +33,31 @@ var mediaquerie = function() {
                     //---->Desktop
                     
                     
+                    //--- Move 
+                    $('#menu').appendTo('header .inner-block');
+                    
                     
                 } else if( width >= 701 && width <= 1024 ) {
                    //---->Tablet
+                
+                   //--- Move 
+                    $('#menu').appendTo('header .inner-block');    
+                    
                 
     						
                 } else if( width >= 601 && width <= 700 ) {
                    //----> Minitablet
                     
+                   //--- Move 
+                    $('#menu').insertBefore('#wrapper');
+                    
 		
                 } else if( width >= 0 && width <= 600 ) {
                    //---->Mobile
                    
+                   //--- Move 
+                    $('#menu').insertBefore('#wrapper');    
+                    
                 }
             }
 		}

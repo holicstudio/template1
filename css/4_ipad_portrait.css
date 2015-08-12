@@ -1,1 +1,54 @@
 /*----- Basic installation -----*/
+/*---- Other ----*/
+h1,
+h2 {
+  font-size: 30px;
+  line-height: 32px;
+}
+h3,
+h4 {
+  font-size: 20px;
+  line-height: 22px;
+}
+h5,
+h6 {
+  font-size: 17px;
+  line-height: 19px;
+}
+/*---- innerblock -----*/
+.inner-block {
+  width: 700px;
+}
+/*:::::::::::: Header ::::::::::::::*/
+header {
+  width: 100%;
+  padding-top: 10px;
+}
+/*--- logo ---*/
+.logo {
+  width: 140px;
+}
+/*---- menu ----*/
+#menu {
+  float: right;
+  padding-top: 14px;
+}
+#menu ul li {
+  margin-right: 10px;
+}
+#menu ul li a {
+  color: #383838;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 20px;
+  height: 20px;
+}
+#menu ul li a i {
+  color: #383838;
+}
+#menu ul li a.active {
+  border-bottom: 3px solid #12bbc4;
+}
+/*--- Open ----*/
+#open {
+  display: none;
+}

@@ -1,5 +1,15 @@
+/*::::::::::::::::::::::::::::::
+
+
+Holicrobot v.1.0
+Template Business Clean
+holicstudio.com.mx
+
+
+:::::::::::::::::::::::::::::::::*/
 /*----- Basic installation -----*/
 @import "normalize.css";
+@import "font-awesome.css";
 @import "font-face.css";
 @import "animate.css";
 /*:::::::::::: Body ::::::::::::::*/
@@ -8,13 +18,38 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-size: 14px;
+  line-height: 16px;
+  color: #383838;
+}
+/*---- Other ----*/
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+h3,
+h4 {
+  margin-bottom: 20px;
+}
+h5,
+h6 {
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 10px;
+}
+a {
+  color: #12bbc4;
+  text-decoration: underline;
 }
 /*---- Transition ----*/
 a,
 input,
 textarea,
 button,
-i {
+i,
+#open small,
+#wrapper {
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -24,20 +59,51 @@ i {
 .inner-block {
   height: auto;
   margin: 0 auto;
-  width: 900px;
 }
 /*:::::::::::: Wrapper ::::::::::::::*/
 #wrapper {
   min-height: 100%;
   position: relative;
   width: 100%;
-  background: neutral;
-  z-index: 1;
+  background: #fff;
 }
 /*:::::::::::: Header ::::::::::::::*/
 header {
   position: relative;
+  background: #fff;
+  border-bottom: 1px solid #c9c9c9;
+}
+/*--- logo ---*/
+.logo {
+  float: left;
+}
+.logo img {
   width: 100%;
+  height: auto;
+}
+/*---- menu ----*/
+#menu ul {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#menu ul li {
+  float: left;
+}
+#menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "bold";
+  display: block;
+  float: left;
+}
+#menu ul li.social a {
+  margin-right: 10px;
+}
+#menu ul li.social a+a {
+  margin-right: 0;
 }
 /*:::::::::::: Content ::::::::::::::*/
 #content {
