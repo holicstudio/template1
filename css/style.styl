@@ -48,6 +48,17 @@ a
 .line.color1
     background principal  
     
+/*---- module -----*/
+.module
+    h2
+        text-transform uppercase
+        text-align center
+    .line
+        left 50%
+        margin-left -20px
+        position relative
+        margin-bottom 20px    
+    
 /*---- btn ----*/
 .btn
     padding 10px 40px 6px 40px
@@ -197,17 +208,71 @@ header
 /*------ Middle block ------*/
 .middle-block
     text-align center
-    h2
-        text-transform uppercase
-    .line
-        left 50%
-        margin-left -20px
-        position relative
-        margin-bottom 20px
     img
         width 100%
         height auto
-    
+        
+/*------ The grid ------*/        
+.the-grid
+    width 100%
+    height auto
+    .small-grid
+        float left
+        ul
+            width 100%
+            height auto
+            list-style none
+            padding 0
+            margin 0
+            li
+                float left
+            li+li
+                margin-right 0
+            li+li+li
+                margin-bottom 0
+    aside
+        position relative
+
+/*---- element -----*/        
+.element
+    position relative
+    overflow hidden
+    a
+        display block
+        text-decoration none
+    img
+        width 100%
+        height auto
+    article
+        h5,
+        h6
+            color neutral
+            text-transform uppercase
+            margin-bottom 0
+        p
+            color gray4
+            margin-bottom 0
+    .shade.back3
+        z-index 2
+    .shade.back4
+        z-index 1
+        
+/*------ shade -------*/
+.shade
+    width 100%
+    height 100%
+    position absolute
+    bottom 0
+    left 0
+    z-index 1
+.shade.back1
+    background shade1
+.shade.back2
+    background shade2
+.shade.back3
+    background gradient1 
+.shade.back4
+    background gradient2   
     
 /*:::::::::::: Fix ::::::::::::::*/
 .fix
