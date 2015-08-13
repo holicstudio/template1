@@ -1,1 +1,184 @@
 /*----- Basic installation -----*/
+/*---- Other ----*/
+h1,
+h2 {
+  font-size: 30px;
+  line-height: 32px;
+}
+h3,
+h4 {
+  font-size: 20px;
+  line-height: 22px;
+}
+h5,
+h6 {
+  font-size: 17px;
+  line-height: 19px;
+}
+a:hover {
+  text-decoration: none;
+}
+/*---- btn ----*/
+.btn {
+  padding: 10px 40px 6px 40px;
+  line-height: 14px;
+}
+.btn.type1:hover {
+  background: #109aa1;
+  outline-color: #109aa1;
+}
+.btn.type2:hover {
+  background: #fff;
+  color: #12bbc4;
+}
+/*---- module ----*/
+.module {
+  width: 100%;
+  padding: 40px 0;
+}
+/*---- innerblock -----*/
+.inner-block {
+  width: 900px;
+}
+/*:::::::::::: Header ::::::::::::::*/
+header {
+  width: 100%;
+  padding-top: 10px;
+}
+/*--- logo ---*/
+.logo {
+  width: 190px;
+}
+/*---- menu ----*/
+#menu {
+  float: right;
+  padding-top: 20px;
+}
+#menu ul li {
+  margin-right: 20px;
+}
+#menu ul li a {
+  color: #383838;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  height: 20px;
+}
+#menu ul li a i {
+  color: #383838;
+}
+#menu ul li a:hover {
+  color: #12bbc4;
+}
+#menu ul li a:hover i {
+  color: #12bbc4;
+}
+#menu ul li a.active {
+  border-bottom: 3px solid #12bbc4;
+}
+/*--- Open ----*/
+#open {
+  display: none;
+}
+/*:::::::::::: Content ::::::::::::::*/
+/*----- Slider -------*/
+.slider,
+.slider .slick-slide {
+  width: 100%;
+  height: 420px;
+}
+/*-- arrow --*/
+.slider .slick-arrow {
+  right: 5%;
+  font-size: 30px;
+  width: 30px;
+}
+.slider .slick-arrow:hover i {
+  color: #12bbc4;
+}
+.slider .slick-prev {
+  top: 140px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+.slider .slick-next {
+  top: 110px;
+}
+.slider .slick-dots {
+  width: 30px;
+  right: 5%;
+  top: 200px;
+}
+.slider .slick-dots li button:hover i {
+  color: #12bbc4;
+}
+/*-- slick slide --*/
+.slider .slick-slide article {
+  width: 50%;
+  padding-top: 120px;
+}
+.slider .slick-slide article h1 span,
+.slider .slick-slide article h2 span {
+  font-size: 50px;
+  line-height: 45px;
+}
+/*---- btn zone ----*/
+.btn-zone a {
+  margin-right: 20px;
+}
+/*------ Middle block ------*/
+.middle-block p {
+  width: 70%;
+  margin: 0 auto 30px auto;
+  font-size: 17px;
+  line-height: 19px;
+}
+/*------ The grid ------*/
+.the-grid .small-grid {
+  width: 48.5%;
+}
+.the-grid .small-grid ul li {
+  width: 46.7%;
+  margin-bottom: 30px;
+  margin-right: 6.6%;
+  height: 185px;
+}
+.the-grid .small-grid ul li+li+li {
+  width: 100%;
+}
+.the-grid aside {
+  float: right;
+  height: 400px;
+  width: 48.5%;
+}
+/*---- element -----*/
+.element article {
+  position: absolute;
+  left: 5%;
+  bottom: 15px;
+  z-index: 3;
+}
+.element .shade {
+  height: 50%;
+}
+/*:::::::::::: Fix ::::::::::::::*/
+.fix {
+  height: 92px;
+}
+/*:::::::::::: Footer ::::::::::::::*/
+footer {
+  width: 100%;
+  padding: 20px 0;
+}
+/*---- icon block ----*/
+.icon-block img {
+  width: 40px;
+  margin-right: 10px;
+}
+.icon-block article {
+  padding-top: 13px;
+}
+/*--- social footer ----*/
+.social-footer {
+  float: right;
+}

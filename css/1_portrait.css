@@ -184,3 +184,25 @@ header {
 .element .shade {
   height: 50%;
 }
+/*:::::::::::: Fix ::::::::::::::*/
+.fix {
+  height: 92px;
+}
+/*:::::::::::: Footer ::::::::::::::*/
+footer {
+  width: 90%;
+  padding: 20px 5%;
+}
+/*---- icon block ----*/
+.icon-block img {
+  width: 40px;
+  margin-right: 10px;
+}
+.icon-block article {
+  padding-top: 13px;
+}
+/*--- social footer ----*/
+.social-footer {
+  padding-top: 13px;
+  float: right;
+}
