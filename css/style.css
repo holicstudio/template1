@@ -82,6 +82,11 @@ a {
   outline: 3px solid #fff;
   background: transparent;
 }
+.btn.type3 {
+  outline: 3px solid #12bbc4;
+  background: transparent;
+  color: #12bbc4;
+}
 /*---- Transition ----*/
 a,
 input,
@@ -107,6 +112,7 @@ i,
   position: relative;
   width: 100%;
   background: #fff;
+  overflow: hidden;
 }
 /*:::::::::::: Header ::::::::::::::*/
 header {
@@ -351,8 +357,8 @@ header {
   height: auto;
   text-align: center;
 }
-.message-module h4,
-.message-module h5 {
+.message-module h3,
+.message-module h4 {
   font-family: "Regular";
   text-transform: uppercase;
 }
@@ -360,6 +366,34 @@ header {
   left: 50%;
   margin-left: -20px;
   position: relative;
+}
+/*---- half module ----*/
+.half-module article,
+.half-module aside {
+  position: relative;
+}
+.half-module article h1,
+.half-module aside h1,
+.half-module article h2,
+.half-module aside h2 {
+  text-transform: uppercase;
+}
+.half-module article {
+  float: left;
+}
+.half-module article a.btn {
+  display: block;
+  text-align: center;
+}
+.half-module aside img {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+}
+/*---- row side ----*/
+.row-side {
+  width: 100%;
+  height: auto;
 }
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {

@@ -202,6 +202,29 @@ header {
   width: 90%;
   padding: 20px 5%;
 }
+/*---- half module ----*/
+.half-module {
+  width: 100%;
+}
+.half-module article,
+.half-module aside {
+  float: left;
+}
+.half-module article {
+  width: 90%;
+  padding: 20px 5% 30px 5%;
+}
+.half-module article a.btn {
+  max-width: 60px;
+  margin-top: 20px;
+}
+.half-module aside {
+  width: 100%;
+  min-height: 300px;
+}
+.half-module aside figure {
+  width: 100%;
+}
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {
   height: 92px;

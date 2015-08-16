@@ -73,6 +73,10 @@ a
 .btn.type2
     outline 3px solid neutral
     background transparent
+.btn.type3
+    outline 3px solid principal
+    background transparent  
+    color principal
     
 
     
@@ -91,6 +95,7 @@ a
     position relative
     width 100%
     background neutral
+    overflow hidden
     
 
 /*:::::::::::: Header ::::::::::::::*/
@@ -304,8 +309,8 @@ header
 .message-module
     height auto
     text-align center
-    h4,
-    h5
+    h3,
+    h4
         font-family fregular
         text-transform uppercase
     .line
@@ -313,7 +318,35 @@ header
         margin-left -20px
         position relative
         
+     
         
+/*---- half module ----*/
+.half-module
+    article,
+    aside
+        position relative
+        h1,
+        h2
+            text-transform uppercase
+    article
+        float left
+        a.btn
+            display block
+            text-align center
+    aside
+        img
+            width 100%
+            overflow hidden
+            height auto
+
+            
+/*---- row side ----*/
+.row-side
+    width 100%
+    height auto   
+
+            
+
     
     
 /*:::::::::::: Fix ::::::::::::::*/
