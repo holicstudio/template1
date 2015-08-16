@@ -197,6 +197,32 @@ header {
 .element .shade {
   height: 50%;
 }
+/*------- Section hero ------*/
+.section-hero {
+  height: 350px;
+}
+.section-hero .inner-block {
+  text-align: center;
+}
+.section-hero .inner-block article {
+  width: 90%;
+  padding: 120px 5% 0 5%;
+}
+.section-hero .line {
+  left: 50%;
+  margin-left: -20px;
+  position: relative;
+}
+.section-hero h1 span,
+.section-hero h2 span {
+  font-size: 50px;
+  line-height: 45px;
+}
+/*---- Message module ---*/
+.message-module {
+  width: 90%;
+  padding: 40px 5%;
+}
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {
   height: 92px;

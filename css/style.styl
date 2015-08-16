@@ -152,6 +152,7 @@ header
 /*----- Slider -------*/
 /*-- arrow --*/    
 .slider
+    overflow hidden
     .slick-arrow
         position absolute
         z-index 1
@@ -272,7 +273,48 @@ header
 .shade.back3
     background gradient1 
 .shade.back4
-    background gradient2   
+    background gradient2  
+    
+    
+/*------- Section hero ------*/
+.section-hero
+    width 100%
+    overflow hidden
+    position relative
+    img
+        width 100%
+        height auto
+    .inner-block
+        z-index 2
+        position relative
+        color neutral
+        article
+            margin 0 auto
+    .line
+        margin-bottom 20px 
+    h1,
+    h2
+        text-transform uppercase
+        color gray1
+        span
+            display block
+            color neutral
+            
+/*---- Message module ---*/
+.message-module
+    height auto
+    text-align center
+    h4,
+    h5
+        font-family fregular
+        text-transform uppercase
+    .line
+        left 50%
+        margin-left -20px
+        position relative
+        
+        
+    
     
 /*:::::::::::: Fix ::::::::::::::*/
 .fix

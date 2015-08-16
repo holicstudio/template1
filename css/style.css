@@ -164,6 +164,10 @@ header {
 }
 /*----- Slider -------*/
 /*-- arrow --*/
+.slider {
+  overflow: hidden;
+/*-- dots --*/
+}
 .slider .slick-arrow {
   position: absolute;
   z-index: 1;
@@ -310,6 +314,52 @@ header {
 }
 .shade.back4 {
   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+}
+/*------- Section hero ------*/
+.section-hero {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.section-hero img {
+  width: 100%;
+  height: auto;
+}
+.section-hero .inner-block {
+  z-index: 2;
+  position: relative;
+  color: #fff;
+}
+.section-hero .inner-block article {
+  margin: 0 auto;
+}
+.section-hero .line {
+  margin-bottom: 20px;
+}
+.section-hero h1,
+.section-hero h2 {
+  text-transform: uppercase;
+  color: #9a9a9a;
+}
+.section-hero h1 span,
+.section-hero h2 span {
+  display: block;
+  color: #fff;
+}
+/*---- Message module ---*/
+.message-module {
+  height: auto;
+  text-align: center;
+}
+.message-module h4,
+.message-module h5 {
+  font-family: "Regular";
+  text-transform: uppercase;
+}
+.message-module .line {
+  left: 50%;
+  margin-left: -20px;
+  position: relative;
 }
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {

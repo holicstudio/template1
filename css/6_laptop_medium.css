@@ -167,6 +167,32 @@ header {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
 }
+/*------- Section hero ------*/
+.section-hero {
+  height: 420px;
+}
+.section-hero .inner-block {
+  text-align: center;
+}
+.section-hero .inner-block article {
+  padding-top: 120px;
+  width: 50%;
+}
+.section-hero .line {
+  left: 50%;
+  margin-left: -20px;
+  position: relative;
+}
+.section-hero h1 span,
+.section-hero h2 span {
+  font-size: 50px;
+  line-height: 45px;
+}
+/*---- Message module ---*/
+.message-module {
+  width: 100%;
+  padding: 40px 0;
+}
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {
   height: 92px;
