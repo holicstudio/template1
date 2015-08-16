@@ -31,6 +31,10 @@ a:hover {
   background: #fff;
   color: #12bbc4;
 }
+.btn.type3:hover {
+  background: #12bbc4;
+  color: #fff;
+}
 /*---- module ----*/
 .module {
   width: 100%;
@@ -160,6 +164,71 @@ header {
 }
 .element .shade {
   height: 50%;
+}
+
+/*------- Section hero ------*/
+.section-hero {
+  height: 420px;
+}
+.section-hero .inner-block {
+  text-align: center;
+}
+.section-hero .inner-block article {
+  padding-top: 120px;
+  width: 50%;
+}
+.section-hero .line {
+  left: 50%;
+  margin-left: -20px;
+  position: relative;
+}
+.section-hero h1 span,
+.section-hero h2 span {
+  font-size: 50px;
+  line-height: 45px;
+}
+/*---- Message module ---*/
+.message-module {
+  width: 100%;
+  padding: 40px 0;
+}
+/*---- half module ----*/
+.half-module {
+  width: 100%;
+}
+.half-module article {
+  width: 45%;
+  padding-top: 40px;
+}
+.half-module article a.btn {
+  max-width: 60px;
+  margin-top: 20px;
+}
+.half-module aside {
+  width: 50%;
+  min-height: 450px;
+}
+.half-module aside figure {
+  width: 300%;
+}
+/*---- row side ----*/
+.row-side.right-side article {
+  float: left;
+  padding-right: 5%;
+}
+.row-side.right-side aside {
+  float: right;
+}
+.row-side.left-side article {
+  float: right;
+  padding-left: 5%;
+}
+.row-side.left-side aside {
+  float: left;
+}
+.row-side.left-side aside figure {
+  right: 0;
+  left: inherit;
 }
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {
