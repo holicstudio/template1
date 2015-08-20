@@ -63,7 +63,7 @@ header {
   display: none;
 }
 /*:::::::::::: Content ::::::::::::::*/
-/*----- Slider -------*/
+/*________ Slider ________*/
 .slider,
 .slider .slick-slide {
   width: 100%;
@@ -158,12 +158,12 @@ header {
   font-size: 50px;
   line-height: 45px;
 }
-/*---- Message module ---*/
+/*________ Message module ________*/
 .message-module {
   width: 100%;
   padding: 40px 0;
 }
-/*---- half module ----*/
+/*________ half module ________*/
 .half-module {
   width: 100%;
 }

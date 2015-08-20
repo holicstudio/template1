@@ -117,7 +117,7 @@ header {
   opacity: 0;
 }
 /*:::::::::::: Content ::::::::::::::*/
-/*----- Slider -------*/
+/*________ Slider ________*/
 .slider,
 .slider .slick-slide {
   width: 100%;
@@ -197,7 +197,7 @@ header {
 .element .shade {
   height: 50%;
 }
-/*------- Section hero ------*/
+/*________ Section hero ________*/
 .section-hero {
   height: 350px;
 }
@@ -218,12 +218,12 @@ header {
   font-size: 50px;
   line-height: 45px;
 }
-/*---- Message module ---*/
+/*________ Message module ________*/
 .message-module {
   width: 90%;
   padding: 40px 5%;
 }
-/*---- half module ----*/
+/*________ half module ________*/
 .half-module {
   width: 100%;
 }

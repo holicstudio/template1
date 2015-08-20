@@ -39,6 +39,9 @@ p
 a
     color principal
     text-decoration underline
+.center-title
+    width 100%
+    text-align center
     
 /*---- line ----*/
 .line
@@ -154,7 +157,7 @@ header
         background-size cover
         
         
-/*----- Slider -------*/
+/*________ Slider ________*/
 /*-- arrow --*/    
 .slider
     overflow hidden
@@ -263,7 +266,7 @@ header
     .shade.back4
         z-index 1
         
-/*------ shade -------*/
+/*________ shade ________*/
 .shade
     width 100%
     height 100%
@@ -281,7 +284,7 @@ header
     background gradient2  
     
     
-/*------- Section hero ------*/
+/*________ Section hero ________*/
 .section-hero
     width 100%
     overflow hidden
@@ -305,7 +308,7 @@ header
             display block
             color neutral
             
-/*---- Message module ---*/
+/*________ Message module ________*/
 .message-module
     height auto
     text-align center
@@ -320,7 +323,7 @@ header
         
      
         
-/*---- half module ----*/
+/*________ half module ________*/
 .half-module
     article,
     aside
@@ -329,7 +332,6 @@ header
         h2
             text-transform uppercase
     article
-        float left
         a.btn
             display block
             text-align center
@@ -345,10 +347,193 @@ header
     width 100%
     height auto   
 
+/*________ Inner page ________*/
+.inner-page
+    position relative
+    padding 40px 0
+    h1,
+    h2
+        text-transform uppercase
+    article
+        width 75%
+        margin 0 auto
+        img
+            width 100%
+            height auto
+            clear both
+            display block
+            margin-bottom 20px
+        img.medium-image
+            width 70%
+        img.small-image
+            width 40%
+        
+/*________ Social bar ________*/
+.social-bar
+    width 45px
+    height auto
+    padding 0
+    position fixed
+    ul
+        padding 0
+        margin 0
+        list-style none
+        li
+            width 100%
+            text-align center
+            position relative
+            height 40px
+            margin-bottom 10px
+            padding-bottom 12px
+            div
+                padding-top 14px
+            a
+                text-decoration none
+                display block
+                color gray5
+                width 100%
+                i
+                    font-size 20px
+            div#facebook a:hover
+                i
+                    color social1
+            div#twitter a:hover
+                i
+                    color social2
+            a.share
+                position absolute
+                top 0
+        li:first-child
+            border-bottom 1px solid gray1
+        li:last-child
+            margin-bottom 0
             
+            
+/*________ Gallery module ________*/            
+.gallery-module
+    width 100%
+    height auto
+    overflow hidden
+    margin-bottom 20px
+    img
+        width 100%
+        height auto
+        margin-bottom 0
+    .slick-slide
+        position relative
+    button.slick-arrow
+        position absolute
+        top 55%
+        margin-top -20px
+        color neutral
+        font-size 40px
+        z-index 2
+        height 40px
+        cursor pointer
+        text-shadow 0 3px 5px rgba(0,0,0,.5)
+        right 3%
+    button.slick-next
+        top 45%
+.gallery-module,
+.gallery-module .slick-slide
+    height 360px
+    
+/*________ Carousel module ________*/    
+.carousel-module
+    width 100%
+    height auto
+    padding-top 50px
+    margin-bottom 20px
+    .slick-slide
+        img
+            padding 0 5%
+            width 90%
+            height auto
+    button.slick-arrow
+        position absolute
+        top 0
+        color gray5
+        font-size 40px
+        z-index 2
+        height 40px
+        cursor pointer
+        width 40px
+        text-align center
+    button.slick-prev
+        left 48%
+        margin-left -20px
+    button.slick-next
+        right 48%
+        margin-right -20px
+                
+/*________ Tables module ________*/  
+.tables-module
+    width 100%
+    height auto
+    margin-bottom 30px
+    ul
+        width 100%
+        height auto
+        padding 0
+        margin 0
+        list-style none
+        li
+            float left
+            margin-right 3%
+            width 27%
+            background gray4
+            text-align center
+            padding 20px 2%
+            p.price
+                color principal
+                font-size 25px
+                font-family fbold
+            .skill
+                width 100%
+                height auto
+                padding-bottom 5px
+                border-bottom 1px solid gray2
+                margin-bottom 10px
+                p,
+                h5
+                    margin-bottom 0
+                    width 100%
+                    font-size size-small
+                    line-height line-normal
+            .skill.last-sk
+                margin-bottom 20px
+            .btn
+                display block
+                width 100%
+                padding 10px 0 6px 0
+                text-align center        
+        li:last-child
+            margin-right 0
+        li.active
+            transform scale(1.1)
+            margin-top 5px
+            h3
+                font-size 25px
+            p.price
+                font-size 30px
+            .btn
+                background principal
+                color neutral
+                
+/*---- Table -----*/
+table
+    width 100%
+    height auto
+    margin-bottom 20px
+    tr
+        border-bottom 1px solid gray2
+    th,
+    td
+        padding 10px
+        text-align left
+    th
+        font-family fbold
 
-    
-    
 /*:::::::::::: Fix ::::::::::::::*/
 .fix
     width 100%

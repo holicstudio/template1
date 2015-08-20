@@ -161,15 +161,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/flaticon.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/flaticon.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/font-awesome.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -256,6 +247,149 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/image\/back\/back-service.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156674,
+		"inputAbbreviatedPath": "\/image\/back\/back-service.jpg",
+		"outputAbbreviatedPath": "\/image\/back\/back-service.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/element\/large-block.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 120136,
+		"inputAbbreviatedPath": "\/image\/element\/large-block.jpg",
+		"outputAbbreviatedPath": "\/image\/element\/large-block.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/element\/middle-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 177501,
+		"inputAbbreviatedPath": "\/image\/element\/middle-image.jpg",
+		"outputAbbreviatedPath": "\/image\/element\/middle-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/element\/small-block1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54637,
+		"inputAbbreviatedPath": "\/image\/element\/small-block1.jpg",
+		"outputAbbreviatedPath": "\/image\/element\/small-block1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/element\/small-block2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83250,
+		"inputAbbreviatedPath": "\/image\/element\/small-block2.jpg",
+		"outputAbbreviatedPath": "\/image\/element\/small-block2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/element\/xlarge-block.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262835,
+		"inputAbbreviatedPath": "\/image\/element\/xlarge-block.jpg",
+		"outputAbbreviatedPath": "\/image\/element\/xlarge-block.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/logo\/icon-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3918,
+		"inputAbbreviatedPath": "\/image\/logo\/icon-logo.png",
+		"outputAbbreviatedPath": "\/image\/logo\/icon-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/logo\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13797,
+		"inputAbbreviatedPath": "\/image\/logo\/logo.png",
+		"outputAbbreviatedPath": "\/image\/logo\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/service\/service1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127087,
+		"inputAbbreviatedPath": "\/image\/service\/service1.jpg",
+		"outputAbbreviatedPath": "\/image\/service\/service1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/service\/service2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106816,
+		"inputAbbreviatedPath": "\/image\/service\/service2.jpg",
+		"outputAbbreviatedPath": "\/image\/service\/service2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/service\/service3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138432,
+		"inputAbbreviatedPath": "\/image\/service\/service3.jpg",
+		"outputAbbreviatedPath": "\/image\/service\/service3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/service\/service4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173922,
+		"inputAbbreviatedPath": "\/image\/service\/service4.jpg",
+		"outputAbbreviatedPath": "\/image\/service\/service4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/image\/slider\/slide1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 199061,
+		"inputAbbreviatedPath": "\/image\/slider\/slide1.jpg",
+		"outputAbbreviatedPath": "\/image\/slider\/slide1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -276,12 +410,45 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/jquery.sharrre.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.sharrre.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.sharrre-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/media-querie.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/media-querie.js",
 		"outputAbbreviatedPath": "\/js\/min\/media-querie-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/media-querie-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/media-querie-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/media-querie-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/page-code-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/page-code-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/page-code-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -298,17 +465,54 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
+	"\/servicios-inner.html": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/README.md",
-		"outputAbbreviatedPath": "\/README.html",
+		"inputAbbreviatedPath": "\/servicios-inner.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/servicios.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/servicios.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/slick\/min\/slick-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/slick\/min\/slick-min.js",
+		"outputAbbreviatedPath": "\/slick\/min\/min\/slick-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/slick\/slick.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/slick\/slick.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/slick\/slick.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/slick\/slick.js",
+		"outputAbbreviatedPath": "\/slick\/min\/slick-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
