@@ -331,6 +331,10 @@ header {
 .tables-module ul li.active p.price {
   font-size: 30px;
 }
+/*---- Table -----*/
+table {
+  width: 100%;
+}
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {
   height: 92px;
