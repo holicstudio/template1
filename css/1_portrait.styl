@@ -195,7 +195,96 @@ header
         width 100%
         min-height 300px
         figure
-            width 100%      
+            width 100%
+            
+/*________ Inner page ________*/
+.inner-page
+    padding 20px 5%
+    width 90%
+    article
+        width 100%
+            
+/*________ Social bar ________*/
+.social-bar
+    width 100%
+    margin-bottom 15px
+    ul
+        display inline-block
+        width 100%
+        li
+            width 80px
+            float left
+            height 20px
+            padding-left 10px
+            a.share
+                position absolute
+                top 0
+                width 20px
+            a.count
+                padding-left 20px
+                width 50px
+                padding-top 3px
+        li:first-child
+            border-right 1px solid gray1 
+            padding-left 0
+
+/*________ Gallery module ________*/            
+.gallery-module
+    button.slick-arrow
+        top 55%
+        margin-top -20px
+        right 3%
+    button.slick-next
+        top 45%
+.gallery-module,
+.gallery-module .slick-slide
+    height 250px     
+    
+/*________ Carousel module ________*/    
+.carousel-module
+    padding-top 50px
+    button.slick-prev
+        left 48%
+        margin-left -20px
+    button.slick-next
+        right 48%
+        margin-right -20px    
+    
+/*________ Tables module ________*/  
+.tables-module
+    margin-bottom 20px
+    ul
+        li
+            width 90%
+            padding 20px 5%
+            margin 0 0 20px 0
+            p.price
+                font-size 25px
+            .btn
+                width 70%
+                padding 10px 0 6px 0
+                margin 0 auto
+        li.active
+            margin-top 5px
+            h3
+                font-size 25px
+            p.price
+                font-size 30px   
+                
+/*---- Table -----*/
+table
+    width 100%
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display block
+    -webkit-overflow-scrolling touch
+    thead,
+    tbody
+        display block
+        width 500px
+    td,
+    th 
+        width 100px            
 
 /*:::::::::::: Fix ::::::::::::::*/
 .fix

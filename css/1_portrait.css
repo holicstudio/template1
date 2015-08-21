@@ -225,6 +225,111 @@ header {
 .half-module aside figure {
   width: 100%;
 }
+/*________ Inner page ________*/
+.inner-page {
+  padding: 20px 5%;
+  width: 90%;
+}
+.inner-page article {
+  width: 100%;
+}
+/*________ Social bar ________*/
+.social-bar {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.social-bar ul {
+  display: inline-block;
+  width: 100%;
+}
+.social-bar ul li {
+  width: 80px;
+  float: left;
+  height: 20px;
+  padding-left: 10px;
+}
+.social-bar ul li a.share {
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+.social-bar ul li a.count {
+  padding-left: 20px;
+  width: 50px;
+  padding-top: 3px;
+}
+.social-bar ul li:first-child {
+  border-right: 1px solid #9a9a9a;
+  padding-left: 0;
+}
+/*________ Gallery module ________*/
+.gallery-module button.slick-arrow {
+  top: 55%;
+  margin-top: -20px;
+  right: 3%;
+}
+.gallery-module button.slick-next {
+  top: 45%;
+}
+.gallery-module,
+.gallery-module .slick-slide {
+  height: 250px;
+}
+/*________ Carousel module ________*/
+.carousel-module {
+  padding-top: 50px;
+}
+.carousel-module button.slick-prev {
+  left: 48%;
+  margin-left: -20px;
+}
+.carousel-module button.slick-next {
+  right: 48%;
+  margin-right: -20px;
+}
+/*________ Tables module ________*/
+.tables-module {
+  margin-bottom: 20px;
+}
+.tables-module ul li {
+  width: 90%;
+  padding: 20px 5%;
+  margin: 0 0 20px 0;
+}
+.tables-module ul li p.price {
+  font-size: 25px;
+}
+.tables-module ul li .btn {
+  width: 70%;
+  padding: 10px 0 6px 0;
+  margin: 0 auto;
+}
+.tables-module ul li.active {
+  margin-top: 5px;
+}
+.tables-module ul li.active h3 {
+  font-size: 25px;
+}
+.tables-module ul li.active p.price {
+  font-size: 30px;
+}
+/*---- Table -----*/
+table {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: block;
+  -webkit-overflow-scrolling: touch;
+}
+table thead,
+table tbody {
+  display: block;
+  width: 500px;
+}
+table td,
+table th {
+  width: 100px;
+}
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {
   height: 92px;

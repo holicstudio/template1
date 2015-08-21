@@ -320,10 +320,10 @@ header {
   background: rgba(255,255,255,0.6);
 }
 .shade.back3 {
-  background: linear-gradient(to bottom, rgba(18,187,196,0) 0%, rgba(18,187,196,0.5) 100%);
+  background: linear-gradient(to bottom, rgba(18,187,196,0) 0%, rgba(18,187,196,0.7) 100%);
 }
 .shade.back4 {
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
 }
 /*________ Section hero ________*/
 .section-hero {
@@ -399,14 +399,12 @@ header {
 /*________ Inner page ________*/
 .inner-page {
   position: relative;
-  padding: 40px 0;
 }
 .inner-page h1,
 .inner-page h2 {
   text-transform: uppercase;
 }
 .inner-page article {
-  width: 75%;
   margin: 0 auto;
 }
 .inner-page article img {
@@ -416,18 +414,10 @@ header {
   display: block;
   margin-bottom: 20px;
 }
-.inner-page article img.medium-image {
-  width: 70%;
-}
-.inner-page article img.small-image {
-  width: 40%;
-}
 /*________ Social bar ________*/
 .social-bar {
-  width: 45px;
   height: auto;
   padding: 0;
-  position: fixed;
 }
 .social-bar ul {
   padding: 0;
@@ -438,12 +428,6 @@ header {
   width: 100%;
   text-align: center;
   position: relative;
-  height: 40px;
-  margin-bottom: 10px;
-  padding-bottom: 12px;
-}
-.social-bar ul li div {
-  padding-top: 14px;
 }
 .social-bar ul li a {
   text-decoration: none;
@@ -453,22 +437,6 @@ header {
 }
 .social-bar ul li a i {
   font-size: 20px;
-}
-.social-bar ul li div#facebook a:hover i {
-  color: #3b5998;
-}
-.social-bar ul li div#twitter a:hover i {
-  color: #3acaff;
-}
-.social-bar ul li a.share {
-  position: absolute;
-  top: 0;
-}
-.social-bar ul li:first-child {
-  border-bottom: 1px solid #9a9a9a;
-}
-.social-bar ul li:last-child {
-  margin-bottom: 0;
 }
 /*________ Gallery module ________*/
 .gallery-module {
@@ -487,7 +455,6 @@ header {
 }
 .gallery-module button.slick-arrow {
   position: absolute;
-  top: 55%;
   margin-top: -20px;
   color: #fff;
   font-size: 40px;
@@ -495,20 +462,11 @@ header {
   height: 40px;
   cursor: pointer;
   text-shadow: 0 3px 5px rgba(0,0,0,0.5);
-  right: 3%;
-}
-.gallery-module button.slick-next {
-  top: 45%;
-}
-.gallery-module,
-.gallery-module .slick-slide {
-  height: 360px;
 }
 /*________ Carousel module ________*/
 .carousel-module {
   width: 100%;
   height: auto;
-  padding-top: 50px;
   margin-bottom: 20px;
 }
 .carousel-module .slick-slide img {
@@ -527,19 +485,10 @@ header {
   width: 40px;
   text-align: center;
 }
-.carousel-module button.slick-prev {
-  left: 48%;
-  margin-left: -20px;
-}
-.carousel-module button.slick-next {
-  right: 48%;
-  margin-right: -20px;
-}
 /*________ Tables module ________*/
 .tables-module {
   width: 100%;
   height: auto;
-  margin-bottom: 30px;
 }
 .tables-module ul {
   width: 100%;
@@ -550,15 +499,11 @@ header {
 }
 .tables-module ul li {
   float: left;
-  margin-right: 3%;
-  width: 27%;
   background: #f2f2f2;
   text-align: center;
-  padding: 20px 2%;
 }
 .tables-module ul li p.price {
   color: #12bbc4;
-  font-size: 25px;
   font-family: "Bold";
 }
 .tables-module ul li .skill {
@@ -580,25 +525,10 @@ header {
 }
 .tables-module ul li .btn {
   display: block;
-  width: 100%;
-  padding: 10px 0 6px 0;
   text-align: center;
 }
 .tables-module ul li:last-child {
   margin-right: 0;
-}
-.tables-module ul li.active {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  margin-top: 5px;
-}
-.tables-module ul li.active h3 {
-  font-size: 25px;
-}
-.tables-module ul li.active p.price {
-  font-size: 30px;
 }
 .tables-module ul li.active .btn {
   background: #12bbc4;
@@ -606,7 +536,6 @@ header {
 }
 /*---- Table -----*/
 table {
-  width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
