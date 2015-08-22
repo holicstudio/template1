@@ -296,6 +296,14 @@ header {
 table {
   width: 100%;
 }
+/*________ The form ________*/
+.theform label i {
+  width: 4%;
+}
+.theform label input,
+.theform label textarea {
+  width: 96%;
+}
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {
   height: 92px;

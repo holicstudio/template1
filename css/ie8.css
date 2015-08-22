@@ -165,6 +165,7 @@ header {
 .element .shade {
   height: 50%;
 }
+
 /*________ Section hero ________*/
 .section-hero {
   height: 420px;
@@ -320,6 +321,18 @@ header {
 }
 .tables-module ul li.active p.price {
   font-size: 30px;
+}
+/*---- Table -----*/
+table {
+  width: 100%;
+}
+/*________ The form ________*/
+.theform label i {
+  width: 4%;
+}
+.theform label input,
+.theform label textarea {
+  width: 96%;
 }
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {

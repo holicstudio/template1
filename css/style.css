@@ -49,6 +49,29 @@ a {
   width: 100%;
   text-align: center;
 }
+input,
+textarea {
+  background: #ebebeb;
+  width: 100%;
+  padding: 5px 10px 2px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  font-family: "Regular";
+  font-size: 14px;
+  color: #383838;
+}
+input {
+  height: 30px;
+}
+textarea {
+  height: 100px;
+  resize: none;
+}
+button {
+  cursor: pointer;
+}
 /*---- line ----*/
 .line {
   width: 40px;
@@ -349,12 +372,15 @@ header {
 .section-hero h1,
 .section-hero h2 {
   text-transform: uppercase;
-  color: #9a9a9a;
+  color: #c9c9c9;
 }
 .section-hero h1 span,
 .section-hero h2 span {
   display: block;
   color: #fff;
+}
+.section-hero .shade {
+  height: 120%;
 }
 /*________ Message module ________*/
 .message-module {
@@ -549,6 +575,40 @@ table td {
 }
 table th {
   font-family: "Bold";
+}
+/*________ The form ________*/
+.theform {
+  width: 100%;
+  height: auto;
+}
+.theform form {
+  width: 100%;
+  height: auto;
+}
+.theform label {
+  width: 100%;
+  height: auto;
+  background: #ebebeb;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.theform label i,
+.theform label input,
+.theform label textarea {
+  float: left;
+}
+.theform label i {
+  color: #9a9a9a;
+  text-align: center;
+  line-height: 30px;
+}
+.theform label input,
+.theform label textarea {
+  padding-top: 7px;
+}
+.theform .sendit {
+  width: 100%;
+  text-align: center;
 }
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {

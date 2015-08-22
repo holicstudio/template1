@@ -330,6 +330,14 @@ table td,
 table th {
   width: 100px;
 }
+/*________ The form ________*/
+.theform label i {
+  width: 10%;
+}
+.theform label input,
+.theform label textarea {
+  width: 86%;
+}
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {
   height: 92px;
